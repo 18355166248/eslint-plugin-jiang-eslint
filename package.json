@@ -1,0 +1,23 @@
+{
+  "name": "eslint-plugin-jiang-eslint",
+  "version": "1.0.0",
+  "private": false,
+  "description": "custom eslint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "custom eslint",
+    "jiang-eslint"
+  ],
+  "author": "SMegalo",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0"
+  },
+  "dependencies": {
+    "requireindex": "^1.2.0"
+  }
+}
