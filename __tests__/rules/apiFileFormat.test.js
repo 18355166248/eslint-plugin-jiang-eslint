@@ -1,6 +1,6 @@
 "use strict";
 
-var rule = require("../../lib/rules/apiFileFormat"),
+var rule = require("../../lib/rules/api-file-format"),
   RuleTester = require("eslint").RuleTester;
 
 var ruleTester = new RuleTester({
@@ -10,7 +10,7 @@ var ruleTester = new RuleTester({
   }
 });
 
-ruleTester.run("apiFileFormat", rule, {
+ruleTester.run("api-file-format", rule, {
   valid: [
     {
       filename: "foo.api.js",

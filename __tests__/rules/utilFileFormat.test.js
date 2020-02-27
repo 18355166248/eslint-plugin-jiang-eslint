@@ -1,6 +1,6 @@
 "use strict";
 
-var rule = require("../../lib/rules/utilFileFormat"),
+var rule = require("../../lib/rules/util-file-format"),
   RuleTester = require("eslint").RuleTester;
 
 var ruleTester = new RuleTester({
@@ -10,7 +10,7 @@ var ruleTester = new RuleTester({
   }
 });
 
-ruleTester.run("utilFileFormat", rule, {
+ruleTester.run("util-file-format", rule, {
   valid: [
     {
       filename: "foo.util.js",

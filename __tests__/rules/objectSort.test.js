@@ -1,5 +1,5 @@
 const RuleTester = require("eslint").RuleTester;
-const rule = require("../../lib/rules/objectSort");
+const rule = require("../../lib/rules/object-sort");
 
 const ruleTester = new RuleTester({
   parserOptions: {
@@ -7,7 +7,7 @@ const ruleTester = new RuleTester({
   }
 });
 
-ruleTester.run("objectSort", rule, {
+ruleTester.run("object-sort", rule, {
   valid: [
     `const bar = {
       meta: {},
