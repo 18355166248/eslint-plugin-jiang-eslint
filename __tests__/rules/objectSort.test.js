@@ -7,7 +7,7 @@ const ruleTester = new RuleTester({
   }
 });
 
-ruleTester.run("test rule", rule, {
+ruleTester.run("objectSort", rule, {
   valid: [
     `const bar = {
       meta: {},

@@ -5,7 +5,7 @@ const ruleTester = new RuleTester({
   parserOptions: { ecmaVersion: 2015 }
 }); // You do have to tell eslint what js you're using
 
-ruleTester.run("no-block-comments", rule, {
+ruleTester.run("noBlockComments", rule, {
   valid: ["var a = 1; console.log(a)"],
   invalid: [
     {

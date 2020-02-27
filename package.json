@@ -1,9 +1,9 @@
 {
   "name": "eslint-plugin-jiang-eslint",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "private": false,
   "description": "custom eslint",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
